@@ -6,6 +6,24 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="hZ0-ld-CIo">
+            <objects>
+                <viewController id="Itg-y2-mQ5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="REJ-Lw-Ht2"/>
+                        <viewControllerLayoutGuide type="bottom" id="MLk-xv-9VL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NVM-07-HJP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6KH-gn-HFP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="-305"/>
+        </scene>
         <!--Presentation View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -24,11 +42,10 @@
                                 <state key="normal" title="Omitir">
                                     <color key="titleColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="jumpView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQF-0b-7lg"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-aG-9gp">
-                                <rect key="frame" x="20" y="77" width="560" height="318"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slogan" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQk-te-YtP">
                                 <rect key="frame" x="20" y="413" width="560" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -56,28 +73,39 @@
                                 <state key="normal" title="Registrar">
                                     <color key="titleColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNI-fr-x5k"/>
+                                </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a3N-Ar-1SQ">
+                                <rect key="frame" x="20" y="72" width="560" height="326"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.18817836046218872" blue="0.049527935683727264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="IEZ-aG-9gp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3x1-1k-gie"/>
-                            <constraint firstItem="AQk-te-YtP" firstAttribute="top" secondItem="IEZ-aG-9gp" secondAttribute="bottom" constant="18" id="7wk-a0-XRf"/>
+                            <constraint firstItem="a3N-Ar-1SQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4d3-bp-ukx"/>
                             <constraint firstItem="fxf-4x-hMU" firstAttribute="top" secondItem="Xt8-ep-6Xu" secondAttribute="bottom" constant="33" id="80V-xO-ZKR"/>
                             <constraint firstItem="fxf-4x-hMU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8zv-qf-TWc"/>
-                            <constraint firstItem="IEZ-aG-9gp" firstAttribute="top" secondItem="8Fr-er-wVu" secondAttribute="bottom" constant="15" id="9b2-RD-Ko6"/>
+                            <constraint firstItem="AQk-te-YtP" firstAttribute="top" secondItem="a3N-Ar-1SQ" secondAttribute="bottom" constant="15" id="KF3-ne-nPx"/>
+                            <constraint firstItem="a3N-Ar-1SQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mcx-vx-w5L"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fxf-4x-hMU" secondAttribute="bottom" constant="57" id="MrW-b2-4O0"/>
                             <constraint firstItem="Xt8-ep-6Xu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N2R-Sr-xvk"/>
                             <constraint firstItem="8Fr-er-wVu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Xpw-G1-mM2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="IEZ-aG-9gp" secondAttribute="trailing" id="YG4-S7-3aX"/>
+                            <constraint firstItem="a3N-Ar-1SQ" firstAttribute="top" secondItem="8Fr-er-wVu" secondAttribute="bottom" constant="10" id="c5e-PH-Tna"/>
                             <constraint firstItem="AQk-te-YtP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dkG-TL-3zJ"/>
-                            <constraint firstItem="IEZ-aG-9gp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dnt-f8-4Iz"/>
-                            <constraint firstItem="AQk-te-YtP" firstAttribute="top" secondItem="IEZ-aG-9gp" secondAttribute="bottom" constant="18" id="eNd-pp-UJy"/>
+                            <constraint firstItem="a3N-Ar-1SQ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gd6-87-nyl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AQk-te-YtP" secondAttribute="trailing" id="qRb-H8-FbP"/>
                             <constraint firstItem="Xt8-ep-6Xu" firstAttribute="top" secondItem="AQk-te-YtP" secondAttribute="bottom" constant="13" id="sFd-C3-57o"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8Fr-er-wVu" secondAttribute="trailing" id="tEv-JL-ycU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AQk-te-YtP" secondAttribute="trailing" id="wmL-X3-Rzt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="SloganLabel" destination="AQk-te-YtP" id="gLc-27-LgR"/>
+                        <outlet property="imageSlider" destination="a3N-Ar-1SQ" id="ROn-Ws-trW"/>
+                        <segue destination="Itg-y2-mQ5" kind="show" identifier="registerSegue" id="YsX-KW-uJT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

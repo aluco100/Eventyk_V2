@@ -8,8 +8,8 @@ target 'Eventyk' do
   # Pods for Eventyk
   pod 'Alamofire'
   pod 'RealmSwift'
-  pod 'SimpleImageSlider'
   pod 'MBProgressHUD'
+  pod 'LIHImageSlider'
 
   target 'EventykTests' do
     inherit! :search_paths

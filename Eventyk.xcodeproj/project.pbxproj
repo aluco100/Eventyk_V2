@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2CAB271D8ADC0900FB51CC /* Charlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB1F1D8ADC0900FB51CC /* Charlas.png */; };
+		0C2CAB281D8ADC0900FB51CC /* Cine.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB201D8ADC0900FB51CC /* Cine.png */; };
+		0C2CAB291D8ADC0900FB51CC /* Cultura.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB211D8ADC0900FB51CC /* Cultura.png */; };
+		0C2CAB2A1D8ADC0900FB51CC /* Deportes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB221D8ADC0900FB51CC /* Deportes.png */; };
+		0C2CAB2B1D8ADC0900FB51CC /* Espectaculos.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB231D8ADC0900FB51CC /* Espectaculos.png */; };
+		0C2CAB2C1D8ADC0900FB51CC /* Exposiciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB241D8ADC0900FB51CC /* Exposiciones.png */; };
+		0C2CAB2D1D8ADC0900FB51CC /* Festivales.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB251D8ADC0900FB51CC /* Festivales.png */; };
+		0C2CAB2E1D8ADC0900FB51CC /* Fiestas.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB261D8ADC0900FB51CC /* Fiestas.png */; };
 		0C5F276E1D88C30900D842ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F276D1D88C30900D842ED /* AppDelegate.swift */; };
 		0C5F27731D88C30900D842ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F27711D88C30900D842ED /* Main.storyboard */; };
 		0C5F27751D88C30900D842ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F27741D88C30900D842ED /* Assets.xcassets */; };
@@ -42,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C2CAB1F1D8ADC0900FB51CC /* Charlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Charlas.png; path = Assets.xcassets/Charlas.png; sourceTree = "<group>"; };
+		0C2CAB201D8ADC0900FB51CC /* Cine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cine.png; path = Assets.xcassets/Cine.png; sourceTree = "<group>"; };
+		0C2CAB211D8ADC0900FB51CC /* Cultura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cultura.png; path = Assets.xcassets/Cultura.png; sourceTree = "<group>"; };
+		0C2CAB221D8ADC0900FB51CC /* Deportes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Deportes.png; path = Assets.xcassets/Deportes.png; sourceTree = "<group>"; };
+		0C2CAB231D8ADC0900FB51CC /* Espectaculos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Espectaculos.png; path = Assets.xcassets/Espectaculos.png; sourceTree = "<group>"; };
+		0C2CAB241D8ADC0900FB51CC /* Exposiciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Exposiciones.png; path = Assets.xcassets/Exposiciones.png; sourceTree = "<group>"; };
+		0C2CAB251D8ADC0900FB51CC /* Festivales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Festivales.png; path = Assets.xcassets/Festivales.png; sourceTree = "<group>"; };
+		0C2CAB261D8ADC0900FB51CC /* Fiestas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fiestas.png; path = Assets.xcassets/Fiestas.png; sourceTree = "<group>"; };
 		0C5F276A1D88C30900D842ED /* Eventyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5F276D1D88C30900D842ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C5F27721D88C30900D842ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +125,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0C2CAB2F1D8ADC1600FB51CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CAB1F1D8ADC0900FB51CC /* Charlas.png */,
+				0C2CAB201D8ADC0900FB51CC /* Cine.png */,
+				0C2CAB211D8ADC0900FB51CC /* Cultura.png */,
+				0C2CAB221D8ADC0900FB51CC /* Deportes.png */,
+				0C2CAB231D8ADC0900FB51CC /* Espectaculos.png */,
+				0C2CAB241D8ADC0900FB51CC /* Exposiciones.png */,
+				0C2CAB251D8ADC0900FB51CC /* Festivales.png */,
+				0C2CAB261D8ADC0900FB51CC /* Fiestas.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C5F27611D88C30900D842ED = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +175,7 @@
 				0C5F27711D88C30900D842ED /* Main.storyboard */,
 				0C5F27741D88C30900D842ED /* Assets.xcassets */,
 				0C5F27761D88C30900D842ED /* LaunchScreen.storyboard */,
+				0C2CAB2F1D8ADC1600FB51CC /* Supporting Files */,
 				0C5F27791D88C30900D842ED /* Info.plist */,
 			);
 			path = Eventyk;
@@ -293,8 +325,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2CAB271D8ADC0900FB51CC /* Charlas.png in Resources */,
+				0C2CAB2A1D8ADC0900FB51CC /* Deportes.png in Resources */,
+				0C2CAB2E1D8ADC0900FB51CC /* Fiestas.png in Resources */,
 				0C5F27781D88C30900D842ED /* LaunchScreen.storyboard in Resources */,
+				0C2CAB2D1D8ADC0900FB51CC /* Festivales.png in Resources */,
+				0C2CAB291D8ADC0900FB51CC /* Cultura.png in Resources */,
+				0C2CAB281D8ADC0900FB51CC /* Cine.png in Resources */,
+				0C2CAB2C1D8ADC0900FB51CC /* Exposiciones.png in Resources */,
 				0C5F27751D88C30900D842ED /* Assets.xcassets in Resources */,
+				0C2CAB2B1D8ADC0900FB51CC /* Espectaculos.png in Resources */,
 				0C5F27731D88C30900D842ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
