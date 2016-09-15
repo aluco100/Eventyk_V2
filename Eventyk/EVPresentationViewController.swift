@@ -12,7 +12,6 @@ import LIHImageSlider
 class EVPresentationViewController: UIViewController,LIHSliderDelegate {
 
     //MARK: - IBOutlets
-    @IBOutlet var SloganLabel: UILabel!
     @IBOutlet var imageSlider: UIView!
     
     //MARK: - Global variables
@@ -22,22 +21,24 @@ class EVPresentationViewController: UIViewController,LIHSliderDelegate {
         super.viewDidLoad()
 
         //imageSlider settings
-        let images = [UIImage(named: "Cine")!, UIImage(named: "Charlas")!, UIImage(named: "Espectaculos")!]
+        let images = [UIImage(named: "Intro1")!, UIImage(named: "Charlas")!, UIImage(named: "Espectaculos")!]
         let slider1 = LIHSlider(images: images)
-        slider1.sliderDescriptions = ["Descripcion1", "Descripcion2", "Descripcion3"]
+        slider1.sliderDescriptions = ["Encuentra los mejores eventos de acuerdo a tus gustos e intereses", "Descripcion2", "Descripcion3"]
         self.vc2 = LIHSliderViewController(slider: slider1)
         self.vc2?.delegate = self
         self.addChildViewController(self.vc2!)
         self.view.addSubview(self.vc2!.view)
         self.vc2?.didMoveToParentViewController(self)
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
+    //MARK: - View Controller options
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
 
     //MARK: - IBActions
     
@@ -47,6 +48,7 @@ class EVPresentationViewController: UIViewController,LIHSliderDelegate {
     }
     
     @IBAction func goToRegister(sender: AnyObject) {
+        self.performSegueWithIdentifier("registerSegue", sender: self)
     }
     
     
@@ -56,6 +58,7 @@ class EVPresentationViewController: UIViewController,LIHSliderDelegate {
     override func viewDidLayoutSubviews() {
         
         self.vc2!.view.frame = self.imageSlider.frame
+        
     }
     func itemPressedAtIndex(index index: Int) {
         

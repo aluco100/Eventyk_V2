@@ -27,6 +27,8 @@
 		0CE3F0011D89A1420052E66C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3F0001D89A1420052E66C /* Event.swift */; };
 		0CE3F0031D89A4210052E66C /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3F0021D89A4210052E66C /* AppManager.swift */; };
 		0CE3F0051D89A59D0052E66C /* EVPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3F0041D89A59D0052E66C /* EVPresentationViewController.swift */; };
+		0CE91C6B1D8AEBDA00E1E934 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE91C6A1D8AEBDA00E1E934 /* logo.png */; };
+		0CE91C6D1D8AEE5400E1E934 /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE91C6C1D8AEE5400E1E934 /* home1.png */; };
 		19E6E3EC16999471E916FD81 /* Pods_EventykUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8A2FBF8CC596FA6FE89947 /* Pods_EventykUITests.framework */; };
 		6A667428E769876FAFFA6FD6 /* Pods_Eventyk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1579F5AC2E00DA5B7DA3E7 /* Pods_Eventyk.framework */; };
 		E83D6B5359810E6621F592B4 /* Pods_EventykTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821A057B15A03E48B1A73438 /* Pods_EventykTests.framework */; };
@@ -76,6 +78,8 @@
 		0CE3F0001D89A1420052E66C /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		0CE3F0021D89A4210052E66C /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		0CE3F0041D89A59D0052E66C /* EVPresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVPresentationViewController.swift; sourceTree = "<group>"; };
+		0CE91C6A1D8AEBDA00E1E934 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Assets.xcassets/logo.png; sourceTree = "<group>"; };
+		0CE91C6C1D8AEE5400E1E934 /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home1.png; path = Assets.xcassets/home1.png; sourceTree = "<group>"; };
 		1E608C8A8FBDF33A7D33A5DE /* Pods-EventykUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventykUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventykUITests/Pods-EventykUITests.release.xcconfig"; sourceTree = "<group>"; };
 		387D835EF39F1370E5C72C02 /* Pods-EventykTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventykTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventykTests/Pods-EventykTests.release.xcconfig"; sourceTree = "<group>"; };
 		3B8A2FBF8CC596FA6FE89947 /* Pods_EventykUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventykUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +132,8 @@
 		0C2CAB2F1D8ADC1600FB51CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0CE91C6C1D8AEE5400E1E934 /* home1.png */,
+				0CE91C6A1D8AEBDA00E1E934 /* logo.png */,
 				0C2CAB1F1D8ADC0900FB51CC /* Charlas.png */,
 				0C2CAB201D8ADC0900FB51CC /* Cine.png */,
 				0C2CAB211D8ADC0900FB51CC /* Cultura.png */,
@@ -330,9 +336,11 @@
 				0C2CAB2E1D8ADC0900FB51CC /* Fiestas.png in Resources */,
 				0C5F27781D88C30900D842ED /* LaunchScreen.storyboard in Resources */,
 				0C2CAB2D1D8ADC0900FB51CC /* Festivales.png in Resources */,
+				0CE91C6D1D8AEE5400E1E934 /* home1.png in Resources */,
 				0C2CAB291D8ADC0900FB51CC /* Cultura.png in Resources */,
 				0C2CAB281D8ADC0900FB51CC /* Cine.png in Resources */,
 				0C2CAB2C1D8ADC0900FB51CC /* Exposiciones.png in Resources */,
+				0CE91C6B1D8AEBDA00E1E934 /* logo.png in Resources */,
 				0C5F27751D88C30900D842ED /* Assets.xcassets in Resources */,
 				0C2CAB2B1D8ADC0900FB51CC /* Espectaculos.png in Resources */,
 				0C5F27731D88C30900D842ED /* Main.storyboard in Resources */,
