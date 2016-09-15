@@ -21,6 +21,7 @@
 		0C5F27781D88C30900D842ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F27761D88C30900D842ED /* LaunchScreen.storyboard */; };
 		0C5F27831D88C30900D842ED /* EventykTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F27821D88C30900D842ED /* EventykTests.swift */; };
 		0C5F278E1D88C30900D842ED /* EventykUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F278D1D88C30900D842ED /* EventykUITests.swift */; };
+		0C72B5121D8B55F8009C86E6 /* EVRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C72B5111D8B55F8009C86E6 /* EVRegisterViewController.swift */; };
 		0CE3EFFB1D89973A0052E66C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3EFFA1D89973A0052E66C /* User.swift */; };
 		0CE3EFFD1D899C6C0052E66C /* Taste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3EFFC1D899C6C0052E66C /* Taste.swift */; };
 		0CE3EFFF1D899E0E0052E66C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3EFFE1D899E0E0052E66C /* Place.swift */; };
@@ -72,6 +73,7 @@
 		0C5F27891D88C30900D842ED /* EventykUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventykUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5F278D1D88C30900D842ED /* EventykUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventykUITests.swift; sourceTree = "<group>"; };
 		0C5F278F1D88C30900D842ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C72B5111D8B55F8009C86E6 /* EVRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVRegisterViewController.swift; sourceTree = "<group>"; };
 		0CE3EFFA1D89973A0052E66C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0CE3EFFC1D899C6C0052E66C /* Taste.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taste.swift; sourceTree = "<group>"; };
 		0CE3EFFE1D899E0E0052E66C /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				0CE3F0001D89A1420052E66C /* Event.swift */,
 				0CE3F0021D89A4210052E66C /* AppManager.swift */,
 				0CE3F0041D89A59D0052E66C /* EVPresentationViewController.swift */,
+				0C72B5111D8B55F8009C86E6 /* EVRegisterViewController.swift */,
 				0C5F27711D88C30900D842ED /* Main.storyboard */,
 				0C5F27741D88C30900D842ED /* Assets.xcassets */,
 				0C5F27761D88C30900D842ED /* LaunchScreen.storyboard */,
@@ -491,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C72B5121D8B55F8009C86E6 /* EVRegisterViewController.swift in Sources */,
 				0CE3F0031D89A4210052E66C /* AppManager.swift in Sources */,
 				0C5F276E1D88C30900D842ED /* AppDelegate.swift in Sources */,
 				0CE3EFFB1D89973A0052E66C /* User.swift in Sources */,
