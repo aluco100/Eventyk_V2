@@ -21,5 +21,8 @@ public class AppManager: Object{
     }
     
     //MARK: - Methods
-    
+    func getCities()->[String]?{
+        //To complete
+        return nil
+    }
 }
