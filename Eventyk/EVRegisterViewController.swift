@@ -58,6 +58,12 @@ class EVRegisterViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //MARK: - ViewController settings
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
+    
     //MARK: - IBAction
     
     @IBAction func registerUser(sender: AnyObject) {

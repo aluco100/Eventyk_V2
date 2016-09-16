@@ -55,7 +55,7 @@
                                 <rect key="frame" x="129" y="402" width="341" height="108"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="C3k-6p-bzL">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tasteCell" id="C3k-6p-bzL">
                                         <rect key="frame" x="0.0" y="28" width="341" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C3k-6p-bzL" id="lsw-xg-VHk">
@@ -130,6 +130,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDg-Hd-4jb">
                                 <rect key="frame" x="129" y="518" width="101" height="41"/>
+                                <color key="backgroundColor" red="0.38022863864898682" green="0.66362076997756958" blue="0.47424608469009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="3GY-Hl-fzQ"/>
                                     <constraint firstAttribute="width" constant="101" id="MkR-7j-XEQ"/>
@@ -144,6 +145,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDN-Qg-kbh">
                                 <rect key="frame" x="369" y="518" width="101" height="42"/>
+                                <color key="backgroundColor" red="0.37842205166816711" green="0.66244888305664062" blue="0.47265738248825073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="101" id="mgV-hP-SOM"/>
                                 </constraints>
